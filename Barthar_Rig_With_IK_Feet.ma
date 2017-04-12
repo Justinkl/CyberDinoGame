@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
-//Name: Barthar_Rig_Start.ma
-//Last modified: Tue, Apr 11, 2017 08:51:15 PM
+//Name: Barthar_Rig_With_IK_Feet.ma
+//Last modified: Tue, Apr 11, 2017 08:51:46 PM
 //Codeset: 1252
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -55172,4 +55172,4 @@ connectAttr "Chest_GeoShape.iog.og[1]" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId230.msg" ":initialShadingGroup.gn" -na;
 connectAttr "ikRPsolver.msg" ":ikSystem.sol" -na;
 connectAttr "ikSCsolver.msg" ":ikSystem.sol" -na;
-// End of Barthar_Rig_Start.ma
+// End of Barthar_Rig_With_IK_Feet.ma
