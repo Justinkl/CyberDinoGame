@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Humanoid.ma
-//Last modified: Mon, Apr 17, 2017 06:11:43 PM
+//Last modified: Mon, Apr 17, 2017 06:12:24 PM
 //Codeset: UTF-8
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -15,13 +15,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "E34849F4-6540-E9D3-6154-A3AE6851E63C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -40.272392578531942 17.918393584532325 29.741950809896696 ;
-	setAttr ".r" -type "double3" -3.3383528194895842 3910.999999997533 0 ;
+	setAttr ".t" -type "double3" 17.639024828025999 17.792435740811044 74.074127438623179 ;
+	setAttr ".r" -type "double3" -2.1383528194890049 3971.7999999974631 2.5384524741536236e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "0C1F5BD4-2747-A283-21B1-41A02BC1721D";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 54.647250698121852;
+	setAttr ".coi" 81.909965284797394;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
