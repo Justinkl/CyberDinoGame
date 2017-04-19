@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Newest_DinoRobot.ma
-//Last modified: Tue, Apr 18, 2017 06:52:49 PM
+//Last modified: Tue, Apr 18, 2017 06:58:16 PM
 //Codeset: 1252
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -15,14 +15,14 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "41261B40-974B-087A-F456-31A33BB9442C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -4.4166343697078005 27.291814040620956 37.102121796477995 ;
-	setAttr ".r" -type "double3" 330.8616477169569 1434.1999825094583 -9.9903773382740774e-016 ;
+	setAttr ".t" -type "double3" -3.4387586611834893 11.594750247538565 -49.302836429148698 ;
+	setAttr ".r" -type "double3" 350.06164553319036 1264.9999976775102 2.5054639865500443e-005 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "71F56AA0-F64F-C534-9ECC-B08A45D94329";
 	setAttr -k off ".v" no;
 	setAttr ".pze" yes;
 	setAttr ".fl" 43.443095995316945;
-	setAttr ".coi" 46.678941330406943;
+	setAttr ".coi" 46.678941330408037;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -2797,7 +2797,7 @@ createNode parentConstraint -n "Tail_2_Geo_parentConstraint1" -p "Tail_2_Geo";
 	setAttr ".tg[0].tot" -type "double3" 0.27478572091219444 0.17366577225213753 2.0521256383077002e-007 ;
 	setAttr ".tg[0].tor" -type "double3" 7.7056403095152677e-005 -8.0267086557274604e-007 
 		-1.0549524634647475e-012 ;
-	setAttr ".lr" -type "double3" 2.1814385111542868e-009 8.0264814225561484e-007 1.3326254535889042 ;
+	setAttr ".lr" -type "double3" 2.1814385111664211e-009 8.0264814225561463e-007 1.3326254535889035 ;
 	setAttr ".rst" -type "double3" 8.8817841970012523e-016 3.5527136788005009e-015 0 ;
 	setAttr ".rsrr" -type "double3" 1.9450172218280602e-020 8.0267086557343881e-007 
 		-2.4401934225261299e-014 ;
@@ -3382,7 +3382,7 @@ createNode parentConstraint -n "Tail_3_Geo_parentConstraint1" -p "Tail_3_Geo";
 	setAttr ".tg[0].tot" -type "double3" 0.2213282346464327 -0.1299536067418412 -3.211721248952415e-007 ;
 	setAttr ".tg[0].tor" -type "double3" -179.99984594255622 -3.9499764826872447e-006 
 		1.4688007143813295 ;
-	setAttr ".lr" -type "double3" 2.0851036717536539e-008 1.7925777909463066e-006 1.3326254535889039 ;
+	setAttr ".lr" -type "double3" 2.0851036717548646e-008 1.7925777909463055e-006 1.3326254535889031 ;
 	setAttr ".rst" -type "double3" -8.8817841970012523e-016 -1.7763568394002505e-015 
 		8.8817841970012523e-016 ;
 	setAttr ".rsrr" -type "double3" -1.064923581870833e-014 0 0 ;
@@ -3966,7 +3966,7 @@ createNode parentConstraint -n "Tail_4_Geo_parentConstraint1" -p "Tail_4_Geo";
 	setAttr ".tg[0].tot" -type "double3" 0.12708170452565426 0.066567659912054822 3.2973704522376579e-007 ;
 	setAttr ".tg[0].tor" -type "double3" 0.00030769467193055911 -1.7836674350671424e-005 
 		3.317781168286364 ;
-	setAttr ".lr" -type "double3" 2.0837605814162968e-008 1.7927918277599073e-006 1.332625453588925 ;
+	setAttr ".lr" -type "double3" 2.0837605814162961e-008 1.7927918277599066e-006 1.3326254535889244 ;
 	setAttr ".rst" -type "double3" 0 0 -4.4408920985006262e-016 ;
 	setAttr ".rsrr" -type "double3" -2.4233123146978235e-020 -3.0332133116374183e-021 
 		-1.987846675914698e-015 ;
@@ -4551,7 +4551,7 @@ createNode parentConstraint -n "Tail_5_Geo_parentConstraint1" -p "Tail_5_Geo";
 	setAttr ".tg[0].tot" -type "double3" 0.17018179335863159 0.11806024342494226 6.0650290745201119e-007 ;
 	setAttr ".tg[0].tor" -type "double3" 0.00030795123897627133 -9.648149407598584e-006 
 		1.7944553260093694 ;
-	setAttr ".lr" -type "double3" 2.0841214796002799e-008 1.7920936828279725e-006 1.3326254535889288 ;
+	setAttr ".lr" -type "double3" 2.0841214796051341e-008 1.7920936828279706e-006 1.332625453588929 ;
 	setAttr ".rst" -type "double3" 0 -1.7763568394002505e-015 4.4408920985006262e-016 ;
 	setAttr ".rsrr" -type "double3" 4.8436625070210012e-020 -6.0664266232748351e-021 
 		-3.9756933518004689e-016 ;
@@ -5136,7 +5136,7 @@ createNode parentConstraint -n "Tail_6_Geo_parentConstraint1" -p "Tail_6_Geo";
 	setAttr ".tg[0].tot" -type "double3" 0.14494154112558277 -0.11079405820229926 -1.185789553215244e-006 ;
 	setAttr ".tg[0].tor" -type "double3" -179.99937197194967 -2.3397385971924126e-005 
 		2.0928394291574026 ;
-	setAttr ".lr" -type "double3" 2.0852727743303973e-008 1.7923158155572544e-006 1.3326254535889264 ;
+	setAttr ".lr" -type "double3" 2.085272774325554e-008 1.7923158155572586e-006 1.3326254535889268 ;
 	setAttr ".rst" -type "double3" 1.7763568394002505e-015 3.5527136788005009e-015 0 ;
 	setAttr ".rsrr" -type "double3" -1.3189229024774893e-016 -6.8247299511846477e-021 
 		-3.9756932406485627e-016 ;
@@ -5721,7 +5721,7 @@ createNode parentConstraint -n "Tail_7_Geo_parentConstraint1" -p "Tail_7_Geo";
 	setAttr ".tg[0].tot" -type "double3" 0.10554636127372063 0.050286021451192653 1.0321341550323382e-006 ;
 	setAttr ".tg[0].tor" -type "double3" 0.0012206084094369234 -4.6031835136007549e-005 
 		2.2025981612723182 ;
-	setAttr ".lr" -type "double3" 3.7170924447857644e-008 1.3456760285936371e-006 1.3326254535889257 ;
+	setAttr ".lr" -type "double3" 3.7170924447857624e-008 1.34567602859364e-006 1.332625453588925 ;
 	setAttr ".rst" -type "double3" -1.7763568394002505e-015 0 4.4408920985006262e-016 ;
 	setAttr ".rsrr" -type "double3" -9.6873250140420024e-020 -1.213285324654967e-020 
 		3.975693351829396e-016 ;
@@ -6306,7 +6306,7 @@ createNode parentConstraint -n "Tail_8_Geo_parentConstraint1" -p "Tail_8_Geo";
 	setAttr ".tg[0].tot" -type "double3" 0.059473352425573722 0.065313060647101295 1.3265453180366649e-006 ;
 	setAttr ".tg[0].tor" -type "double3" 0.0012205920896619178 1.3609481061873355e-006 
 		1.5928480677165798e-011 ;
-	setAttr ".lr" -type "double3" 4.2425052713775323e-009 1.3604398702547843e-006 1.3326254535729998 ;
+	setAttr ".lr" -type "double3" 4.2425052711834749e-009 1.3604398702547896e-006 1.3326254535729998 ;
 	setAttr ".rst" -type "double3" -1.7763568394002505e-015 0 0 ;
 	setAttr ".rsrr" -type "double3" 6.5706983368062098e-019 -3.3932860638618948e-016 
 		-1.5927820273629668e-011 ;
@@ -6361,7 +6361,7 @@ createNode parentConstraint -n "Tail_9_Geo_parentConstraint1" -p "Tail_9_Geo";
 	setAttr ".tg[0].tot" -type "double3" 0.55237317523034868 0.02477904118996932 -1.0211962298001254e-007 ;
 	setAttr ".tg[0].tor" -type "double3" -8.9714466907645531e-009 1.36094810621782e-006 
 		-2.1309900114095342e-016 ;
-	setAttr ".lr" -type "double3" 2.982259577387644e-008 1.3609481062178164e-006 1.3326254536019935 ;
+	setAttr ".lr" -type "double3" 2.9822595773876447e-008 1.3609481062178164e-006 1.3326254536019932 ;
 	setAttr ".rst" -type "double3" 1.7763568394002505e-015 1.7763568394002505e-015 -4.4408920985006262e-016 ;
 	setAttr ".rsrr" -type "double3" 8.9714466907645465e-009 -1.8959251567902457e-022 
 		2.1309900113721935e-016 ;
@@ -11392,7 +11392,7 @@ createNode parentConstraint -n "L_Foot_Geo_parentConstraint1" -p "L_Foot_Geo";
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" -1.1721375037889461 -0.39934358633931299 0.047774940725589493 ;
 	setAttr ".tg[0].tor" -type "double3" 0 0 -7.6333312355124428e-014 ;
-	setAttr ".lr" -type "double3" 0.73796832812929125 0.23028922956327874 -3.2548806568655992 ;
+	setAttr ".lr" -type "double3" 0.73796832812929136 0.2302892295632786 -3.2548806568655992 ;
 	setAttr ".rst" -type "double3" -2.2204460492503131e-016 0 0 ;
 	setAttr ".rsrr" -type "double3" 0 0 7.6333312355124402e-014 ;
 	setAttr -k on ".w0";
@@ -11814,7 +11814,7 @@ createNode parentConstraint -n "L_Calf_Geo_parentConstraint1" -p "L_Calf_Geo";
 	setAttr ".tg[0].tot" -type "double3" 2.6507889976393444 0.79791417494772221 -0.04743272066470685 ;
 	setAttr ".tg[0].tor" -type "double3" 1.5066645859533597e-010 1.5653463651704885e-012 
 		115.58152925793888 ;
-	setAttr ".lr" -type "double3" 0.63214647377911171 -1.3038784352464061 39.705002904771099 ;
+	setAttr ".lr" -type "double3" 0.63214647377911215 -1.3038784352464063 39.705002904771099 ;
 	setAttr ".rst" -type "double3" -1.6653345369377348e-016 0 1.3877787807814457e-017 ;
 	setAttr ".rsrr" -type "double3" -1.5066630429644273e-010 -1.5652304726152262e-012 
 		5.3299139018542672e-015 ;
@@ -12476,7 +12476,7 @@ createNode parentConstraint -n "L_Lower_Leg_Geo_parentConstraint1" -p "L_Lower_L
 	setAttr ".tg[0].tot" -type "double3" 5.4277458612675851 -1.8502375467896579 -0.021591374805467838 ;
 	setAttr ".tg[0].tor" -type "double3" -0.54122312856165455 -4.4861710065068057e-012 
 		56.892629577528673 ;
-	setAttr ".lr" -type "double3" 0.054829975291496483 0.018000439836244747 27.245734555820086 ;
+	setAttr ".lr" -type "double3" 0.054829975291496386 0.018000439836244768 27.245734555820086 ;
 	setAttr ".rst" -type "double3" 0 8.8817841970012523e-016 0 ;
 	setAttr ".rsrr" -type "double3" -1.490885006917274e-016 4.4857002646187604e-012 
 		4.7897883921076845e-014 ;
@@ -13342,7 +13342,7 @@ createNode parentConstraint -n "L_Thigh_Geo_parentConstraint1" -p "L_Thigh_Geo";
 	setAttr ".tg[0].tot" -type "double3" 1.1061989386421898 0.18054587161517333 0.15788827379873765 ;
 	setAttr ".tg[0].tor" -type "double3" 0.40142710108746793 -5.1851707888057075e-013 
 		110.31927395446552 ;
-	setAttr ".lr" -type "double3" -0.05815025884947389 0.0029378439155499838 20.008727025520319 ;
+	setAttr ".lr" -type "double3" -0.058150258849473967 0.0029378439155500783 20.008727025520319 ;
 	setAttr ".rst" -type "double3" -2.2204460492503131e-016 0 0 ;
 	setAttr ".rsrr" -type "double3" 2.2203121441218285e-017 5.186112339194582e-013 7.1562480332929135e-015 ;
 	setAttr -k on ".w0";
@@ -20994,7 +20994,7 @@ createNode parentConstraint -n "joint10_parentConstraint1" -p "joint10";
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" 7.1054273576010019e-015 0 -2.2204460492503131e-015 ;
 	setAttr ".tg[0].tor" -type "double3" 0 1.3609481062178185e-006 1.3326254536019921 ;
-	setAttr ".lr" -type "double3" -5.3229910040881426e-024 5.6872749593201579e-022 1.9878466759146977e-016 ;
+	setAttr ".lr" -type "double3" -1.5968973012264425e-023 5.6872749593201579e-022 5.963540027744093e-016 ;
 	setAttr ".rst" -type "double3" 1.7284343286923427 0.011868198294521903 0.0021108280467538876 ;
 	setAttr ".rsrr" -type "double3" -5.3229910040881426e-024 5.6872749593201579e-022 
 		1.9878466759146977e-016 ;
@@ -21034,8 +21034,8 @@ createNode parentConstraint -n "joint9_parentConstraint1" -p "joint9";
 		-2.2204460492503131e-015 ;
 	setAttr ".tg[0].tor" -type "double3" 2.9822595773541929e-008 4.3131650349167239e-007 
 		1.3326254536019919 ;
-	setAttr ".lr" -type "double3" -2.9822595773930174e-008 -4.3131650349167303e-007 
-		2.769532633153119e-016 ;
+	setAttr ".lr" -type "double3" -2.9822595773736051e-008 -4.3131650349167181e-007 
+		6.7452259850619868e-016 ;
 	setAttr ".rst" -type "double3" 1.0763326410318914 -1.7763568394002505e-015 -8.8817841970012523e-016 ;
 	setAttr ".rsrr" -type "double3" -2.9822595773930174e-008 -4.3131650349167303e-007 
 		2.769532633153119e-016 ;
@@ -21114,7 +21114,7 @@ createNode parentConstraint -n "joint7_parentConstraint1" -p "joint7";
 		-1.3322676295501878e-015 ;
 	setAttr ".tg[0].tor" -type "double3" -0.0012214903151820569 4.3214401818184762e-007 
 		-0.86997270816397609 ;
-	setAttr ".lr" -type "double3" 1.625219048500246e-019 -4.3214401808364426e-007 -9.2140669121998073e-012 ;
+	setAttr ".lr" -type "double3" 1.6365636124039887e-019 -4.3214401808368063e-007 -9.2132717735294415e-012 ;
 	setAttr ".rst" -type "double3" 1.155818475336714 0 0 ;
 	setAttr ".rsrr" -type "double3" 1.625219048500246e-019 -4.3214401808364426e-007 
 		-9.2140669121998073e-012 ;
@@ -21154,7 +21154,7 @@ createNode parentConstraint -n "joint6_parentConstraint1" -p "joint6";
 		-1.3322676295501878e-015 ;
 	setAttr ".tg[0].tor" -type "double3" 179.99937162271326 1.3434209800375206e-006 
 		3.4254648828770118 ;
-	setAttr ".lr" -type "double3" 3.5497866004341471e-016 6.0664266232723706e-021 7.9513867036587899e-016 ;
+	setAttr ".lr" -type "double3" 3.5507534371772311e-016 1.8199279869822038e-020 7.9513867036587899e-016 ;
 	setAttr ".rst" -type "double3" 1.347929920437025 1.7763568394002505e-015 -8.8817841970012523e-016 ;
 	setAttr ".rsrr" -type "double3" 3.5497866004341471e-016 6.0664266232723706e-021 
 		7.9513867036587899e-016 ;
@@ -21193,7 +21193,7 @@ createNode parentConstraint -n "joint5_parentConstraint1" -p "joint5";
 	setAttr ".tg[0].tot" -type "double3" 0 0 4.4408920985006262e-016 ;
 	setAttr ".tg[0].tor" -type "double3" -0.00030813762743540088 1.7920898386513183e-006 
 		-0.46182987244637042 ;
-	setAttr ".lr" -type "double3" 1.1033313421081105e-019 5.0356080368980556e-023 -7.8871208858598652e-027 ;
+	setAttr ".lr" -type "double3" 1.1030943723181386e-019 4.9615549775319453e-023 -3.9756933519082944e-016 ;
 	setAttr ".rst" -type "double3" 1.4586596029786119 1.7763568394002505e-015 4.4408920985006262e-016 ;
 	setAttr ".rsrr" -type "double3" 1.1033313421081105e-019 5.0356080368980556e-023 
 		-7.8871208858598652e-027 ;
@@ -21233,7 +21233,7 @@ createNode parentConstraint -n "joint4_parentConstraint1" -p "joint4";
 		-1.7763568394002505e-015 ;
 	setAttr ".tg[0].tor" -type "double3" -0.00030829417625250941 1.7902961235403967e-006 
 		-1.9851557147453311 ;
-	setAttr ".lr" -type "double3" 4.8531412986198669e-020 -6.0664266232748336e-021 7.9513867036587899e-016 ;
+	setAttr ".lr" -type "double3" 4.834183715422133e-020 -9.0996399349122527e-021 2.3854160110976372e-015 ;
 	setAttr ".rst" -type "double3" 1.6466968576199985 1.7763568394002505e-015 4.4408920985006262e-016 ;
 	setAttr ".rsrr" -type "double3" 4.8531412986198669e-020 -6.0664266232748336e-021 
 		7.9513867036587899e-016 ;
@@ -21273,8 +21273,7 @@ createNode parentConstraint -n "joint3_parentConstraint1" -p "joint3";
 		-4.4408920985006262e-016 ;
 	setAttr ".tg[0].tor" -type "double3" 179.99984595870387 1.7913558473584772e-006 
 		2.8014261679755448 ;
-	setAttr ".lr" -type "double3" -3.3132742865662596e-015 -7.5830332792084969e-022 
-		-3.975693351829396e-016 ;
+	setAttr ".lr" -type "double3" -3.3132742747177699e-015 7.5830332786912117e-022 -1.3914926731402888e-015 ;
 	setAttr ".rst" -type "double3" 1.8360968582308734 3.5527136788005009e-015 -4.4408920985006262e-016 ;
 	setAttr ".rsrr" -type "double3" -3.3132742865662596e-015 -7.5830332792084969e-022 
 		-3.975693351829396e-016 ;
@@ -21313,7 +21312,7 @@ createNode parentConstraint -n "joint2_parentConstraint1" -p "joint2";
 	setAttr ".tg[0].tot" -type "double3" 8.8817841970012523e-016 0 -4.4408920985006262e-016 ;
 	setAttr ".tg[0].tor" -type "double3" -7.7043917172942955e-005 1.7922646968658672e-006 
 		1.3326254535889042 ;
-	setAttr ".lr" -type "double3" -1.2133429217020909e-020 6.3193229659019416e-023 -1.9878466759146985e-016 ;
+	setAttr ".lr" -type "double3" -1.2131701362519249e-020 2.5276263376812505e-022 4.9696166897867459e-016 ;
 	setAttr ".rst" -type "double3" 2.0261478291406307 1.7763568394002505e-015 -4.4408920985006262e-016 ;
 	setAttr ".rsrr" -type "double3" -1.2133429217020909e-020 6.3193229659019416e-023 
 		-1.9878466759146985e-016 ;
@@ -21376,7 +21375,7 @@ createNode scaleConstraint -n "Tail_1_Jnt_scaleConstraint1" -p "Tail_1_Jnt";
 createNode joint -n "L_Hip_Jnt" -p "COG_Jnt";
 	rename -uid "A3299F0C-425B-3FB6-85C9-519ED64E65AE";
 	setAttr ".t" -type "double3" 1.0366389580992277 0.34605492111092118 -2.5518718222226049 ;
-	setAttr ".r" -type "double3" 0.15465687930173655 -0.030577317975816514 20.008156345843954 ;
+	setAttr ".r" -type "double3" 0.15465687930173658 -0.030577317975816577 20.008156345843954 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".jo" -type "double3" -179.86062874052075 0.37637452502514512 -74.624004615268817 ;
@@ -21384,7 +21383,7 @@ createNode joint -n "L_Hip_Jnt" -p "COG_Jnt";
 createNode joint -n "L_Knee_1_Jnt" -p "L_Hip_Jnt";
 	rename -uid "EB7CDCD2-4437-DC1F-A06E-C395C618EE61";
 	setAttr ".t" -type "double3" 3.3807294077635945 1.1333978460620342e-016 4.0197012385334574e-014 ;
-	setAttr ".r" -type "double3" -1.3271092793765128e-017 0.13902983009878406 7.2365495742581363 ;
+	setAttr ".r" -type "double3" -1.3271092793765131e-017 0.13902983009878409 7.2365495742581363 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".jo" -type "double3" 0.51491731536112417 0.78959888494646258 53.430192520559125 ;
@@ -21392,7 +21391,7 @@ createNode joint -n "L_Knee_1_Jnt" -p "L_Hip_Jnt";
 createNode joint -n "L_Knee_2_Jnt" -p "L_Knee_1_Jnt";
 	rename -uid "181B6A4A-4AC7-22E4-1431-208B1FB28B1D";
 	setAttr ".t" -type "double3" 3.3681939593817027 6.77572147694816e-016 0 ;
-	setAttr ".r" -type "double3" 0.93326251065920218 1.0837323159606664 12.475981955858506 ;
+	setAttr ".r" -type "double3" 0.93326251065920218 1.0837323159606667 12.475981955858506 ;
 	setAttr ".mnrl" -type "double3" -360 -360 -360 ;
 	setAttr ".mxrl" -type "double3" 360 360 360 ;
 	setAttr ".jo" -type "double3" 0.23370309476681897 -0.4881666315440219 -58.689895276437113 ;
@@ -21505,62 +21504,21 @@ createNode transform -n "Transfer_Grp" -p "IK_Controls";
 	setAttr ".s" -type "double3" 9.0990907285019755 9.0990907285019755 9.0990907285019755 ;
 createNode transform -n "Transfer" -p "Transfer_Grp";
 	rename -uid "72811DA2-403B-97AC-DA36-9CADB36C0110";
+	setAttr ".t" -type "double3" 0 0.006740737985681769 0 ;
+	setAttr -av ".ty";
 	setAttr ".rp" -type "double3" 0 0 -0.29667211149849121 ;
 	setAttr ".sp" -type "double3" 0 0 -0.29667211149849121 ;
 createNode nurbsCurve -n "TransferShape" -p "Transfer";
 	rename -uid "1B70ECC4-47E6-F509-55F0-3892CF0132D9";
 	setAttr -k off ".v";
 	setAttr ".tw" yes;
-createNode transform -n "IK_Handles" -p "Transfer";
-	rename -uid "8C47C826-4082-2652-0DDB-759BDF66D23E";
-	setAttr ".t" -type "double3" 0.25105502814501152 0 0 ;
-	setAttr ".s" -type "double3" 0.10990109120108031 0.10990109120108031 0.10990109120108031 ;
-	setAttr ".rp" -type "double3" -0.25105502814501196 0 0 ;
-	setAttr ".sp" -type "double3" -2.284372478938077 0 0 ;
-	setAttr ".spt" -type "double3" 2.0333174507930649 0 0 ;
-createNode ikHandle -n "ikHandle1" -p "IK_Handles";
-	rename -uid "74F2E237-40C2-8341-CD76-4490C047CDCD";
-	setAttr ".roc" yes;
-createNode ikHandle -n "ikHandle2" -p "IK_Handles";
-	rename -uid "B76E16DD-47AC-65E2-7021-88BACECD1260";
-	setAttr ".roc" yes;
-createNode ikHandle -n "ikHandle3" -p "IK_Handles";
-	rename -uid "F43FC606-4D0C-2ED4-24BB-1A96E7AC444E";
-	setAttr ".roc" yes;
-createNode ikHandle -n "ikHandle4" -p "IK_Handles";
-	rename -uid "12AE0123-4E14-DA65-4B3E-80AAA8C31EA7";
-	setAttr ".roc" yes;
-createNode ikHandle -n "ikHandle14";
-	rename -uid "573A23C4-40BB-41CB-4046-288DCE965DF7";
-	setAttr ".roc" yes;
-createNode ikHandle -n "ikHandle15";
-	rename -uid "71CBC5DB-4B61-3415-8CD0-FFB8DCDCAED7";
-	setAttr ".roc" yes;
-createNode ikHandle -n "ikHandle16";
-	rename -uid "4E2F78FA-4EFC-2CDA-E99D-2EBB00AA7FC3";
-	setAttr ".roc" yes;
-createNode ikHandle -n "ikHandle17";
-	rename -uid "1F909202-824B-5887-7DD2-30BFB253A27A";
-	setAttr ".roc" yes;
-createNode ikHandle -n "ikHandle18";
-	rename -uid "3BC980DE-CB48-7F41-91BF-158490E0AC39";
-	setAttr ".roc" yes;
-createNode ikHandle -n "ikHandle19";
-	rename -uid "5464CC6C-3746-B130-EAF0-8E8A851F07A8";
-	setAttr ".roc" yes;
-createNode ikHandle -n "ikHandle20";
-	rename -uid "7CE3EE4F-464E-8D9C-9C02-F9BBA6E9B52C";
-	setAttr ".roc" yes;
-createNode ikHandle -n "ikHandle21";
-	rename -uid "8F7D99DD-2E4C-581F-3AFF-A0B84707C1A4";
-	setAttr ".roc" yes;
-createNode ikHandle -n "ikHandle22";
-	rename -uid "4B0AC02C-FA44-4D44-C4FE-E8A33BFF7625";
-	setAttr ".roc" yes;
-createNode transform -n "nurbsCircle11";
+createNode transform -n "nurbsCircle11" -p "Transfer";
 	rename -uid "92F48CC6-4784-24F4-AB67-B889254F362F";
-	setAttr ".rp" -type "double3" 3.3266242101088235 8.4359950555328478 -2.5 ;
+	setAttr ".t" -type "double3" 0.25105502814501152 -0.006740737985681769 0 ;
+	setAttr ".s" -type "double3" 0.10990109120108031 0.10990109120108031 0.10990109120108031 ;
+	setAttr ".rp" -type "double3" 0.36559963070689155 0.92712506196997813 -0.27475272800270123 ;
 	setAttr ".sp" -type "double3" 3.3266242101088235 8.4359950555328478 -2.5 ;
+	setAttr ".spt" -type "double3" -2.9610245794019319 -7.50886999356287 2.2252472719972989 ;
 createNode transform -n "nurbsCircle1" -p "nurbsCircle11";
 	rename -uid "862BED53-42AF-6992-2DE4-0790E0FD04F3";
 	setAttr ".rp" -type "double3" 3.3266242101088235 8.4359950555328478 -2.5 ;
@@ -21677,6 +21635,60 @@ createNode nurbsCurve -n "nurbsCircleShape10" -p "nurbsCircle10";
 	rename -uid "AFD10948-4D6F-686E-08BA-EA8EAC8FCC16";
 	setAttr -k off ".v";
 	setAttr ".tw" yes;
+createNode transform -n "IK_Handles" -p "Transfer";
+	rename -uid "8C47C826-4082-2652-0DDB-759BDF66D23E";
+	setAttr ".t" -type "double3" 0.25105502814501152 0 0 ;
+	setAttr ".s" -type "double3" 0.10990109120108031 0.10990109120108031 0.10990109120108031 ;
+	setAttr ".rp" -type "double3" -0.25105502814501196 0 0 ;
+	setAttr ".sp" -type "double3" -2.284372478938077 0 0 ;
+	setAttr ".spt" -type "double3" 2.0333174507930649 0 0 ;
+createNode ikHandle -n "ikHandle1" -p "IK_Handles";
+	rename -uid "74F2E237-40C2-8341-CD76-4490C047CDCD";
+	setAttr ".t" -type "double3" 2.6679525798287798 3.6804445051617058 0.047432667352715216 ;
+	setAttr -av ".tx";
+	setAttr -av ".ty";
+	setAttr -av ".tz";
+	setAttr ".r" -type "double3" 0.26657718807312647 0.42309828681687228 -93.208721109013922 ;
+	setAttr -av ".rx";
+	setAttr -av ".ry";
+	setAttr -av ".rz";
+	setAttr ".roc" yes;
+createNode ikHandle -n "ikHandle2" -p "IK_Handles";
+	rename -uid "B76E16DD-47AC-65E2-7021-88BACECD1260";
+	setAttr ".roc" yes;
+createNode ikHandle -n "ikHandle3" -p "IK_Handles";
+	rename -uid "F43FC606-4D0C-2ED4-24BB-1A96E7AC444E";
+	setAttr ".roc" yes;
+createNode ikHandle -n "ikHandle4" -p "IK_Handles";
+	rename -uid "12AE0123-4E14-DA65-4B3E-80AAA8C31EA7";
+	setAttr ".roc" yes;
+createNode ikHandle -n "ikHandle14";
+	rename -uid "573A23C4-40BB-41CB-4046-288DCE965DF7";
+	setAttr ".roc" yes;
+createNode ikHandle -n "ikHandle15";
+	rename -uid "71CBC5DB-4B61-3415-8CD0-FFB8DCDCAED7";
+	setAttr ".roc" yes;
+createNode ikHandle -n "ikHandle16";
+	rename -uid "4E2F78FA-4EFC-2CDA-E99D-2EBB00AA7FC3";
+	setAttr ".roc" yes;
+createNode ikHandle -n "ikHandle17";
+	rename -uid "1F909202-824B-5887-7DD2-30BFB253A27A";
+	setAttr ".roc" yes;
+createNode ikHandle -n "ikHandle18";
+	rename -uid "3BC980DE-CB48-7F41-91BF-158490E0AC39";
+	setAttr ".roc" yes;
+createNode ikHandle -n "ikHandle19";
+	rename -uid "5464CC6C-3746-B130-EAF0-8E8A851F07A8";
+	setAttr ".roc" yes;
+createNode ikHandle -n "ikHandle20";
+	rename -uid "7CE3EE4F-464E-8D9C-9C02-F9BBA6E9B52C";
+	setAttr ".roc" yes;
+createNode ikHandle -n "ikHandle21";
+	rename -uid "8F7D99DD-2E4C-581F-3AFF-A0B84707C1A4";
+	setAttr ".roc" yes;
+createNode ikHandle -n "ikHandle22";
+	rename -uid "4B0AC02C-FA44-4D44-C4FE-E8A33BFF7625";
+	setAttr ".roc" yes;
 createNode lightLinker -s -n "lightLinker1";
 	rename -uid "8D53447D-43AF-A8F0-F8B0-CC9F26A2A660";
 	setAttr -s 2 ".lnk";
@@ -22109,21 +22121,6 @@ createNode animCurveTL -n "ikHandle17_translateZ";
 	setAttr ".tan" 18;
 	setAttr -s 5 ".ktv[0:4]"  1 0.036926932836497332 6 -0.0038734955854465986
 		 16 -0.003993383086055298 22 -0.003993383086055298 30 -0.003993383086055298;
-createNode animCurveTL -n "ikHandle18_translateX";
-	rename -uid "1F9D00B1-40B0-8468-A79C-F784DF021844";
-	setAttr ".tan" 18;
-	setAttr -s 5 ".ktv[0:4]"  1 -4.970082142549348 6 -4.970082142549348
-		 16 0.88236098932949103 22 0.922 30 -4.97;
-createNode animCurveTL -n "ikHandle18_translateY";
-	rename -uid "7B63CC90-45E5-B4DE-2B94-F58A2DBCC6AA";
-	setAttr ".tan" 18;
-	setAttr -s 5 ".ktv[0:4]"  1 0.45742267914995693 6 0.45742267914995693
-		 16 0.43888059325105522 22 0.462 30 0.457;
-createNode animCurveTL -n "ikHandle18_translateZ";
-	rename -uid "66EB94C0-4E60-7FAD-006A-84B55CCC5811";
-	setAttr ".tan" 18;
-	setAttr -s 5 ".ktv[0:4]"  1 0.065259525845557692 6 0.065259525845557692
-		 16 0.039185866978947659 22 0.039185866978947659 30 0.039185866978947659;
 createNode animCurveTL -n "ikHandle19_translateX";
 	rename -uid "28114BAD-4483-6DAC-5B46-4C974A4F1CD7";
 	setAttr ".tan" 18;
@@ -22422,66 +22419,6 @@ createNode animCurveTA -n "ikHandle19_twist";
 	setAttr -s 5 ".ktv[0:4]"  1 0 6 0 16 0 22 0 30 0;
 createNode animCurveTU -n "ikHandle19_ikBlend";
 	rename -uid "5A8F7D8C-4D05-7FF5-D0E8-4F9DB884157C";
-	setAttr ".tan" 18;
-	setAttr -s 5 ".ktv[0:4]"  1 1 6 1 16 1 22 1 30 1;
-createNode animCurveTU -n "ikHandle18_visibility";
-	rename -uid "1C47E47A-44ED-AEEE-5D03-9AA7AA7DE058";
-	setAttr ".tan" 9;
-	setAttr -s 5 ".ktv[0:4]"  1 1 6 1 16 1 22 1 30 1;
-	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
-createNode animCurveTA -n "ikHandle18_rotateX";
-	rename -uid "1322503B-48B6-6115-451A-83A2F1E6D091";
-	setAttr ".tan" 18;
-	setAttr -s 5 ".ktv[0:4]"  1 0 6 0 16 0 22 0 30 0;
-createNode animCurveTA -n "ikHandle18_rotateY";
-	rename -uid "844212FD-4D28-0C21-1F68-26970C4B0A9E";
-	setAttr ".tan" 18;
-	setAttr -s 5 ".ktv[0:4]"  1 0 6 0 16 0 22 0 30 0;
-createNode animCurveTA -n "ikHandle18_rotateZ";
-	rename -uid "DF8B2D6E-4C28-C83B-2CBD-81BE9979C2A3";
-	setAttr ".tan" 18;
-	setAttr -s 5 ".ktv[0:4]"  1 0 6 0 16 0 22 0 30 0;
-createNode animCurveTU -n "ikHandle18_scaleX";
-	rename -uid "F8F35F60-4732-944A-9BB7-40A60E118591";
-	setAttr ".tan" 18;
-	setAttr -s 5 ".ktv[0:4]"  1 1 6 1 16 1 22 1 30 1;
-createNode animCurveTU -n "ikHandle18_scaleY";
-	rename -uid "A9896108-4B57-2A9A-EB25-05B6F8C40A7B";
-	setAttr ".tan" 18;
-	setAttr -s 5 ".ktv[0:4]"  1 1 6 1 16 1 22 1 30 1;
-createNode animCurveTU -n "ikHandle18_scaleZ";
-	rename -uid "368D86C8-4799-F62F-33B6-79947489FB38";
-	setAttr ".tan" 18;
-	setAttr -s 5 ".ktv[0:4]"  1 1 6 1 16 1 22 1 30 1;
-createNode animCurveTU -n "ikHandle18_poleVectorX";
-	rename -uid "9C6FAEE5-4CAB-9A75-4A26-32B178CE374B";
-	setAttr ".tan" 18;
-	setAttr -s 5 ".ktv[0:4]"  1 -0.71201378944571958 6 -0.71201378944571958
-		 16 -0.71201378858017572 22 -0.71201378858017572 30 -0.71201378858017572;
-createNode animCurveTU -n "ikHandle18_poleVectorY";
-	rename -uid "E8CF491B-443A-CBC3-BCD6-3FA995C5204A";
-	setAttr ".tan" 18;
-	setAttr -s 5 ".ktv[0:4]"  1 1.8687440616704776 6 1.8687440616704776
-		 16 1.8687440613506392 22 1.8687440613506392 30 1.8687440613506392;
-createNode animCurveTU -n "ikHandle18_poleVectorZ";
-	rename -uid "4FC696D7-44ED-9891-1F9B-73AEF6A0D9E1";
-	setAttr ".tan" 18;
-	setAttr -s 5 ".ktv[0:4]"  1 0.028844334113641124 6 0.028844334113641124
-		 16 0.028844376200763605 22 0.028844376200763605 30 0.028844376200763605;
-createNode animCurveTU -n "ikHandle18_offset";
-	rename -uid "4117235C-4547-8B7C-1160-D4ADDE488639";
-	setAttr ".tan" 18;
-	setAttr -s 5 ".ktv[0:4]"  1 0 6 0 16 0 22 0 30 0;
-createNode animCurveTA -n "ikHandle18_roll";
-	rename -uid "A77E9C8F-4771-C748-507B-14A45B02662D";
-	setAttr ".tan" 18;
-	setAttr -s 5 ".ktv[0:4]"  1 0 6 0 16 0 22 0 30 0;
-createNode animCurveTA -n "ikHandle18_twist";
-	rename -uid "4EC139F8-4F3C-B585-F2F3-50BCC7FE6499";
-	setAttr ".tan" 18;
-	setAttr -s 5 ".ktv[0:4]"  1 0 6 0 16 0 22 0 30 0;
-createNode animCurveTU -n "ikHandle18_ikBlend";
-	rename -uid "C1B53565-4181-06E1-0B86-98944C033897";
 	setAttr ".tan" 18;
 	setAttr -s 5 ".ktv[0:4]"  1 1 6 1 16 1 22 1 30 1;
 createNode animCurveTU -n "ikHandle17_visibility";
@@ -23102,6 +23039,81 @@ createNode transformGeometry -n "transformGeometry12";
 	rename -uid "74766C2B-4FDD-C5FF-AC69-8A9CB77AB181";
 	setAttr ".txf" -type "matrix" 2.6645352591003756e-016 1.2 0 0 -1.2 2.6645352591003756e-016 0 0
 		 0 0 1.2 0 13.890479903249261 8.5761895841209324 -2.5000002670690749 1;
+createNode animCurveTU -n "ikHandle18_ikBlend";
+	rename -uid "C1B53565-4181-06E1-0B86-98944C033897";
+	setAttr ".tan" 18;
+	setAttr -s 5 ".ktv[0:4]"  1 1 6 1 16 1 22 1 30 1;
+createNode animCurveTU -n "ikHandle18_offset";
+	rename -uid "4117235C-4547-8B7C-1160-D4ADDE488639";
+	setAttr ".tan" 18;
+	setAttr -s 5 ".ktv[0:4]"  1 0 6 0 16 0 22 0 30 0;
+createNode animCurveTU -n "ikHandle18_poleVectorZ";
+	rename -uid "4FC696D7-44ED-9891-1F9B-73AEF6A0D9E1";
+	setAttr ".tan" 18;
+	setAttr -s 5 ".ktv[0:4]"  1 0.028844334113641124 6 0.028844334113641124
+		 16 0.028844376200763605 22 0.028844376200763605 30 0.028844376200763605;
+createNode animCurveTU -n "ikHandle18_poleVectorY";
+	rename -uid "E8CF491B-443A-CBC3-BCD6-3FA995C5204A";
+	setAttr ".tan" 18;
+	setAttr -s 5 ".ktv[0:4]"  1 1.8687440616704776 6 1.8687440616704776
+		 16 1.8687440613506392 22 1.8687440613506392 30 1.8687440613506392;
+createNode animCurveTU -n "ikHandle18_poleVectorX";
+	rename -uid "9C6FAEE5-4CAB-9A75-4A26-32B178CE374B";
+	setAttr ".tan" 18;
+	setAttr -s 5 ".ktv[0:4]"  1 -0.71201378944571958 6 -0.71201378944571958
+		 16 -0.71201378858017572 22 -0.71201378858017572 30 -0.71201378858017572;
+createNode animCurveTU -n "ikHandle18_scaleZ";
+	rename -uid "368D86C8-4799-F62F-33B6-79947489FB38";
+	setAttr ".tan" 18;
+	setAttr -s 5 ".ktv[0:4]"  1 1 6 1 16 1 22 1 30 1;
+createNode animCurveTU -n "ikHandle18_scaleY";
+	rename -uid "A9896108-4B57-2A9A-EB25-05B6F8C40A7B";
+	setAttr ".tan" 18;
+	setAttr -s 5 ".ktv[0:4]"  1 1 6 1 16 1 22 1 30 1;
+createNode animCurveTU -n "ikHandle18_scaleX";
+	rename -uid "F8F35F60-4732-944A-9BB7-40A60E118591";
+	setAttr ".tan" 18;
+	setAttr -s 5 ".ktv[0:4]"  1 1 6 1 16 1 22 1 30 1;
+createNode animCurveTU -n "ikHandle18_visibility";
+	rename -uid "1C47E47A-44ED-AEEE-5D03-9AA7AA7DE058";
+	setAttr ".tan" 9;
+	setAttr -s 5 ".ktv[0:4]"  1 1 6 1 16 1 22 1 30 1;
+	setAttr -s 5 ".kot[0:4]"  5 5 5 5 5;
+createNode animCurveTL -n "ikHandle18_translateZ";
+	rename -uid "66EB94C0-4E60-7FAD-006A-84B55CCC5811";
+	setAttr ".tan" 18;
+	setAttr -s 5 ".ktv[0:4]"  1 0.065259525845557692 6 0.065259525845557692
+		 16 0.039185866978947659 22 0.039185866978947659 30 0.039185866978947659;
+createNode animCurveTL -n "ikHandle18_translateY";
+	rename -uid "7B63CC90-45E5-B4DE-2B94-F58A2DBCC6AA";
+	setAttr ".tan" 18;
+	setAttr -s 5 ".ktv[0:4]"  1 0.45742267914995693 6 0.45742267914995693
+		 16 0.43888059325105522 22 0.462 30 0.457;
+createNode animCurveTL -n "ikHandle18_translateX";
+	rename -uid "1F9D00B1-40B0-8468-A79C-F784DF021844";
+	setAttr ".tan" 18;
+	setAttr -s 5 ".ktv[0:4]"  1 -4.970082142549348 6 -4.970082142549348
+		 16 0.88236098932949103 22 0.922 30 -4.97;
+createNode animCurveTA -n "ikHandle18_twist";
+	rename -uid "4EC139F8-4F3C-B585-F2F3-50BCC7FE6499";
+	setAttr ".tan" 18;
+	setAttr -s 5 ".ktv[0:4]"  1 0 6 0 16 0 22 0 30 0;
+createNode animCurveTA -n "ikHandle18_roll";
+	rename -uid "A77E9C8F-4771-C748-507B-14A45B02662D";
+	setAttr ".tan" 18;
+	setAttr -s 5 ".ktv[0:4]"  1 0 6 0 16 0 22 0 30 0;
+createNode animCurveTA -n "ikHandle18_rotateZ";
+	rename -uid "DF8B2D6E-4C28-C83B-2CBD-81BE9979C2A3";
+	setAttr ".tan" 18;
+	setAttr -s 5 ".ktv[0:4]"  1 0 6 0 16 0 22 0 30 0;
+createNode animCurveTA -n "ikHandle18_rotateY";
+	rename -uid "844212FD-4D28-0C21-1F68-26970C4B0A9E";
+	setAttr ".tan" 18;
+	setAttr -s 5 ".ktv[0:4]"  1 0 6 0 16 0 22 0 30 0;
+createNode animCurveTA -n "ikHandle18_rotateX";
+	rename -uid "1322503B-48B6-6115-451A-83A2F1E6D091";
+	setAttr ".tan" 18;
+	setAttr -s 5 ".ktv[0:4]"  1 0 6 0 16 0 22 0 30 0;
 select -ne :time1;
 	setAttr ".o" 18;
 	setAttr ".unw" 18;
@@ -24469,6 +24481,16 @@ connectAttr "Transfer_scaleY.o" "Transfer.sy";
 connectAttr "Transfer_scaleZ.o" "Transfer.sz";
 connectAttr "Transfer_visibility.o" "Transfer.v";
 connectAttr "transformGeometry2.og" "TransferShape.cr";
+connectAttr "transformGeometry3.og" "nurbsCircleShape1.cr";
+connectAttr "transformGeometry4.og" "nurbsCircleShape2.cr";
+connectAttr "transformGeometry5.og" "nurbsCircleShape3.cr";
+connectAttr "transformGeometry6.og" "nurbsCircleShape4.cr";
+connectAttr "transformGeometry7.og" "nurbsCircleShape5.cr";
+connectAttr "transformGeometry10.og" "nurbsCircleShape6.cr";
+connectAttr "transformGeometry11.og" "nurbsCircleShape7.cr";
+connectAttr "transformGeometry12.og" "nurbsCircleShape8.cr";
+connectAttr "transformGeometry9.og" "nurbsCircleShape9.cr";
+connectAttr "transformGeometry8.og" "nurbsCircleShape10.cr";
 connectAttr "L_Hip_Jnt.msg" "ikHandle1.hsj";
 connectAttr "effector1.hp" "ikHandle1.hee";
 connectAttr "ikSCsolver.msg" "ikHandle1.hsv";
@@ -24729,16 +24751,6 @@ connectAttr "ikHandle22_offset.o" "ikHandle22.off";
 connectAttr "ikHandle22_roll.o" "ikHandle22.rol";
 connectAttr "ikHandle22_twist.o" "ikHandle22.twi";
 connectAttr "ikHandle22_ikBlend.o" "ikHandle22.ikb";
-connectAttr "transformGeometry3.og" "nurbsCircleShape1.cr";
-connectAttr "transformGeometry4.og" "nurbsCircleShape2.cr";
-connectAttr "transformGeometry5.og" "nurbsCircleShape3.cr";
-connectAttr "transformGeometry6.og" "nurbsCircleShape4.cr";
-connectAttr "transformGeometry7.og" "nurbsCircleShape5.cr";
-connectAttr "transformGeometry10.og" "nurbsCircleShape6.cr";
-connectAttr "transformGeometry11.og" "nurbsCircleShape7.cr";
-connectAttr "transformGeometry12.og" "nurbsCircleShape8.cr";
-connectAttr "transformGeometry9.og" "nurbsCircleShape9.cr";
-connectAttr "transformGeometry8.og" "nurbsCircleShape10.cr";
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
