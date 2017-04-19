@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Newest_DinoRobot.ma
-//Last modified: Tue, Apr 18, 2017 06:58:16 PM
+//Last modified: Tue, Apr 18, 2017 09:51:25 PM
 //Codeset: 1252
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -15,8 +15,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "41261B40-974B-087A-F456-31A33BB9442C";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -3.4387586611834893 11.594750247538565 -49.302836429148698 ;
-	setAttr ".r" -type "double3" 350.06164553319036 1264.9999976775102 2.5054639865500443e-005 ;
+	setAttr ".t" -type "double3" -1.426816892909935 50.167086578014874 -2.6523443248474976 ;
+	setAttr ".r" -type "double3" 272.66164762445356 1373.0000253552103 -8.1399999480708538e-015 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "71F56AA0-F64F-C534-9ECC-B08A45D94329";
 	setAttr -k off ".v" no;
